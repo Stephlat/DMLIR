@@ -5,7 +5,7 @@ Deep Mixture of Linear Inverse Regressions
 This is a Keras implementation of the work :
 Deep Mixture of Linear Inverse Regressions Applied to Head-Pose Estimation, Stéphane Lathuilière, Rémi Juge, Pablo Mesejo, Rafael Muñoz Salinas, Radu Horaud, CVPR 2017
 
-For more details [Project](https://team.inria.fr/perception/dmlir/) or [pdf](https://team.inria.fr/perception/dmlir/)
+For more details [Project](https://team.inria.fr/perception/research/dmlir/) or [pdf](https://hal.inria.fr/hal-01504847/document)
 
 Tested with keras 1.1.0 with theano backend and python 2.7.12
 Requieres the installation of scikit-learn.
@@ -35,4 +35,4 @@ where JOB_ID is a job id used to save the network weights. You can give any numb
 
 ## Support
 
-For any question, please contact Stéphane Lathuilière [Contact](https://team.inria.fr/perception/team-members/stephane-lathuiliere/).
+For any question, please contact [Stéphane Lathuilière](https://team.inria.fr/perception/team-members/stephane-lathuiliere/).
