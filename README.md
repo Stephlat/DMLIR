@@ -26,7 +26,7 @@ Download the [VGG16 weights](https://drive.google.com/file/d/0Bz7KyqmuGsilT0J5dm
 
 Run the following command:
 ```shell
-THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32,exception_verbosity='high' python  $rootpathData deep_gllim.py trainingAnnotations.txt testAnnotations.txt $JOB_ID
+THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32,exception_verbosity='high' python  $rootpathData deepMLIR.py trainingAnnotations.txt testAnnotations.txt $JOB_ID
 ```
 where JOB_ID is a job id used to save the network weights. You can give any number. $rootpathData is the path to your dataset folder. The file vgg16_weights.h5 must be moved in the $rootpathData folder.
 
