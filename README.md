@@ -31,7 +31,7 @@ THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32,exception_verbosity='high' 
 where JOB_ID is a job id used to save the network weights. You can give any number. $rootpathData is the path to your dataset folder. The file vgg16_weights.h5 must be moved in the $rootpathData folder.
 
 ------------------
-# Synthetic dataset:
+## Synthetic dataset:
 
 You can find the synthetic dataset [here](http://perception.inrialpes.fr/Free_Access_Data/DMLIR/dataSyn.zip).
 
