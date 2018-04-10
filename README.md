@@ -31,6 +31,14 @@ THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32,exception_verbosity='high' 
 where JOB_ID is a job id used to save the network weights. You can give any number. $rootpathData is the path to your dataset folder. The file vgg16_weights.h5 must be moved in the $rootpathData folder.
 
 ------------------
+# Synthetic dataset:
+
+You can find the synthetic dataset [here](http://perception.inrialpes.fr/Free_Access_Data/DMLIR/dataSyn.zip).
+
+<img src="img/syntheEx.jpg" width="50%" height="50%" alt="Examples">
+
+
+In the zip file, 4 python scripts are included. The files select*.py are used to down-sample the dataset in order to obtain the desired target distribution as detailed in the paper. We advise you to use the function getlist() of these files to load the data or at least to see how to read the ground truth. The last file (showHist.py) can be used to display the pose distribution of the dataset.
 
 
 ## Support
